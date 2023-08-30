@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acordeón con jQuery y BEMIT</title>
+    <link rel="stylesheet" href="scss/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="c-accordion">
+        <div class="c-accordion__item">
+            <div class="c-accordion__item-header" aria-expanded="false" aria-controls="content1">
+                <div class="c-accordion__item-header-container">
+                    <span class="material-icons">home</span>
+                    <p class="c-accordion__item-header-title">
+                        Title <span class="span">Description</span>
+                    </p>
+                </div>
+                <div class="c-accordion__item-header-container">
+                    <span class="span span--blue">Texto apoyo</span>
+                    <span class="material-icons js-icon">
+                        expand_more
+                    </span>
+                    <span class="material-icons material-icons--up js-up-icon">
+                        keyboard_arrow_up
+                    </span>
+                </div>
+
+            </div>
+            <div id="content1" class="c-accordion__item-content" aria-hidden="true">
+                <div class="c-accordion__item-content-container">
+
+                    <div>
+                        <span class="material-icons">home</span>
+                        <p>Test</p>
+                    </div>
+                    <div>
+                        Texto apoyo
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="c-accordion__item">
+            <div class="c-accordion__item-header" aria-expanded="false" aria-controls="content2">
+                <div class="c-accordion__item-header-container">
+                    <span class="material-icons">home</span>
+                    <p class="c-accordion__item-header-title">
+                        Title <span class="span">Description</span>
+                    </p>
+                </div>
+                <div class="c-accordion__item-header-container">
+                    <span class="span span--blue">Texto apoyo</span>
+                    <span class="material-icons js-icon">
+                        expand_more
+                    </span>
+                    <span class="material-icons material-icons--up js-up-icon">
+                        keyboard_arrow_up
+                    </span>
+                </div>
+            </div>
+            <div id="content2" class="c-accordion__item-content" aria-hidden="true">
+                <div class="c-accordion__item-content-container">
+                    <div>
+                        <span class="material-icons">home</span>
+                        <p>Test</p>
+                    </div>
+                    <div>
+                        Texto apoyo
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-accordion__item">
+            <div class="c-accordion__item-header" aria-expanded="false" aria-controls="content2">
+                <div class="c-accordion__item-header-container">
+                    <span class="material-icons">home</span>
+                    <p class="c-accordion__item-header-title">
+                        Title <span class="span">Description</span>
+                    </p>
+                </div>
+                <div class="c-accordion__item-header-container">
+                    <span class="span span--blue">Texto apoyo</span>
+                    <span class="material-icons js-icon">
+                        expand_more
+                    </span>
+                    <span class="material-icons material-icons--up js-up-icon">
+                        keyboard_arrow_up
+                    </span>
+                </div>
+            </div>
+            <div id="content2" class="c-accordion__item-content" aria-hidden="true">
+                <div class="c-accordion__item-content-container">
+                    <div>
+                        <span class="material-icons">home</span>
+                        <p>Test</p>
+                    </div>
+                    <div>
+                        Texto apoyo
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/utils.js"></script>
+</body>
+
+</html>
