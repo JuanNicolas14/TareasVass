@@ -29,9 +29,10 @@
 }
 .c-accordion__item-header:focus {
   outline: none;
+  background-color: rgb(243, 140, 140);
 }
 .c-accordion__item-header--active {
-  background-color: red;
+  background-color: white;
 }
 .c-accordion__item-header-container {
   display: flex;

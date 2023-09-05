@@ -26,10 +26,11 @@
         
         &:focus {
             outline: none;
+            background-color: rgb(243, 140, 140);
         }
 
         &--active {
-            background-color: red;
+            background-color: white;
         }
 
         &-container {
